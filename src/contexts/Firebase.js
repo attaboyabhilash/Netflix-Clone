@@ -2,7 +2,7 @@ import firebase from 'firebase/app'
 import "firebase/auth"
 import "firebase/firestore"
 import React, { createContext } from "react"
-import config from './config'
+import config from './config/config'
 
 
 const app = firebase.initializeApp(config)
