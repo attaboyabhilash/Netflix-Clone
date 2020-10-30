@@ -6,6 +6,7 @@ import config from './config/config'
 
 
 const app = firebase.initializeApp(config)
+
 const db = firebase.firestore()
 
 export const FirebaseContext = createContext()
