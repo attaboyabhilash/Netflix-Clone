@@ -10,7 +10,9 @@
 
 # production
 /build
-/src/contexts
+/src/contexts/config
+/functions
+
 
 # misc
 .DS_Store
